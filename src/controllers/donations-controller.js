@@ -15,7 +15,7 @@ export const donationsController = {
         total += donation.amount;
       });
       return h.view("Report", {
-        title: "Donations to Date",
+        title: "Points of Interest to Date",
         donations: donations,
         total: total,
       });
